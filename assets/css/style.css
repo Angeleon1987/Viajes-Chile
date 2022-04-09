@@ -40,19 +40,20 @@ max-width: 2.5%!important;
     background-size: cover
 }
 
-
-.font-weight-light {
-    font-family: 'Source Serif Pro', serif
+.card-img-top {
+  height: 200px
 }
 
-.card .card1 {
-  background-color: black!important;
+.card-text {
+  text-align:justify;
+  color: #fff;
 }
 
-
-.card {
-  margin: auto 0;
+.card-title{
+  font-weight: 700;
+  color: #fff;
 }
+
 .parrafos {
   display: block;
   text-align: left;
