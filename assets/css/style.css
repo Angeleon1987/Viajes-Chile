@@ -22,43 +22,18 @@ max-width: 2.5%!important;
   color: white;
 }
 
-.navbar-nav {
-    font-family: 'Open Sans', sans-serif;
-
-  }
-
 #contacto {
     scroll-behavior: smooth;
   }
 
   .fondo{
     background-color: #1798c1!important;
-}
-
-  .imagen1 {
-    background-image: url('../img/fondo2.jpeg');
-
-  }
-
-  .my-navbar {
-    border: 0;
-    border-radius: 0;
-  }
-
-  .carousel2 {
-    background-image: url('../img/fondo2.jpeg');
-
-  }
-
-  .carousel3 {
-    background-image: url('../img/fondo3.jpeg');
-
-  }
+} 
 
 .carousel-item {
     height: 65vh;
     min-height: 350px;
-    background: no-repeat center center scroll;
+    background: no-repeat top center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,39 +66,29 @@ max-width: 2.5%!important;
 
 .fa-plane {
   color: white;
-  background-color:#1798c1;
-  padding-left: 140px;
-  padding-right: 140px;
-  font-size: 150%;
-  margin: 0 auto;
-  margin-right: 10px;
-  
 }
 
 .fa-car {
   color: white;
-  background-color:#1798c1;
-  padding-left: 140px;
-  padding-right: 140px;
-  font-size: 150%;
-  margin: 0 auto;
-  margin-right: 10px;
 }
 
 .fa-anchor {
   color: white;
-  background-color:#1798c1;
-  padding-left: 140px;
-  padding-right: 140px;
-  font-size: 150%;
-  margin: 0 auto;
-  margin-right: 10px;
 }
 
 .card {
   margin-right: 10px;
 }
 
+.desc-head {
+  background-color:#0dcaf0;
+  padding: 2%;  
+}
+
+.desc-text  {
+  text-align: justify;
+  color: white
+}
 .card:last-of-type {
   margin-right: 0;
 }
@@ -147,11 +112,6 @@ hr {
   margin-left: 35px;
   margin-right: 35px;
   
-}
-
-.textos {
-  color: white!important;
-  text-align: left;
 }
 
 .typeform-widget {
@@ -255,9 +215,4 @@ font-size: 1.5em;
 .fa-2x {
   margin: 0 0.3em;
   color: white!important;
-}
-
-.nav-active {
-    background-color:#fff;
-    box-shadow: 5px -1px 12px -5px grey;
 }
