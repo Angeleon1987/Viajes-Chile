@@ -42,9 +42,3 @@ $(function () {
 }, function() {
     $(this).css('cursor','auto');
 });
-
-$("i").hover(function() {
-    $(this).css('cursor','pointer').attr('title', 'Los mejores viajes estan junto a nosotros');
-}, function() {
-    $(this).css('cursor','auto');
-});
