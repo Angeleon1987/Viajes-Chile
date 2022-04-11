@@ -13,31 +13,14 @@ $(function () {
         alert("Que esperas para ser parte de nosotros?")
     });
     
-    $('.titulo1').click(function(){
-        $('.texto1').toggle();
-    });
-    $('.titulo2').click(function(){
-        $('.texto2').toggle();
-    });
-    $('.titulo3').click(function(){
-        $('.texto3').toggle();
-    });
-    
-    $(".ocultar-mostrar").click(function(){
-        $(".ocultar-mostrar").slideToggle(1500); 
-        $(".ocultar-mostrar").toggle('show');
-    });
-    $(".ocultar-mostrar2").click(function(){
-        $(".ocultar-mostrar2").slideToggle(1500); 
-        $(".ocultar-mostrar2").toggle('show');
-    });
-    $(".ocultar-mostrar3").click(function(){
-        $(".ocultar-mostrar3").slideToggle(1500); 
-        $(".ocultar-mostrar3").toggle('show');
-    });
-    
-    $('.titulo4').click(function(){
-        $('.texto4').toggle();
+    $('.fa-plane').click(function(){
+        $('.desc-text1').removeClass('d-none')(1000);
+    })
+    $('.fa-anchor').click(function(){
+        $('.desc-text2').removeClass('d-none')(1000);
+    })
+    $('.fa-car').click(function(){
+        $('.desc-text3').removeClass('d-none')(1000);
     })
   })
 
@@ -60,3 +43,8 @@ $(function () {
     $(this).css('cursor','auto');
 });
 
+$("i").hover(function() {
+    $(this).css('cursor','pointer').attr('title', 'Los mejores viajes estan junto a nosotros');
+}, function() {
+    $(this).css('cursor','auto');
+});

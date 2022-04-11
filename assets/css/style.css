@@ -70,7 +70,15 @@ section {
   padding: 2%;  
 }
 
-.desc-text  {
+.desc-text1  {
+  text-align: justify;
+  color: white
+}
+.desc-text2  {
+  text-align: justify;
+  color: white
+}
+.desc-text3  {
   text-align: justify;
   color: white
 }
@@ -208,4 +216,5 @@ font-size: 1.5em;
 
 .typeform {
   padding: 40px 0;
+  background-color: #111111 !important;
 }
