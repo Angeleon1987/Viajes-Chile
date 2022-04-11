@@ -1,6 +1,6 @@
 body * {
     text-align: center;
-    color: #000f08;
+    color: #ffffff;
     margin: 0;
     border: 0;
     padding: 0;
@@ -17,18 +17,12 @@ max-width: 2.5%!important;
 }
 
 .texto-viajes p {
-  margin-left: 10px;
-  margin-bottom: -1px;
   color: white;
 }
 
 #contacto {
     scroll-behavior: smooth;
   }
-
-  .fondo{
-    background-color: #1798c1!important;
-} 
 
 .carousel-item {
     height: 65vh;
@@ -57,12 +51,11 @@ max-width: 2.5%!important;
 .parrafos {
   display: block;
   text-align: left;
-  margin: 0 1em;
+  margin: 0 10px;
 }
 
-.color {
-  background-color: black;
-  padding: 10px 0;
+section {
+  background-color: #111111 !important;
 }
 
 .fa-plane {
@@ -78,7 +71,7 @@ max-width: 2.5%!important;
 }
 
 .card {
-  margin-right: 10px;
+  margin: 10px;
 }
 
 .desc-head {
@@ -90,9 +83,6 @@ max-width: 2.5%!important;
   text-align: justify;
   color: white
 }
-.card:last-of-type {
-  margin-right: 0;
-}
 
 .somos {
   background-color: black;
@@ -100,19 +90,14 @@ max-width: 2.5%!important;
 }
 
 h1 {
-  
-  color: white!important;
-  padding-top: 50px;
-  padding-bottom: 20px;
   text-align: center;
 }
 
 hr { 
-  color: #1798c1!important;
-  background-color: #1798c1!important;
+  color: #ffffff!important;
+  background-color: #ffffff!important;
   margin-left: 35px;
   margin-right: 35px;
-  
 }
 
 .typeform-widget {
@@ -130,6 +115,13 @@ hr {
     margin-bottom: 23px; 
   }
 }
+.navbar-brand, .nav-link {
+  font-size:1.3rem;
+}
+
+.nav-item {
+  margin: 20px !important;
+}
 
 @media screen and (max-width:1200px) {
   .navbar-toggler{
@@ -139,10 +131,8 @@ left: 20px;
 }
 
 @media screen and (max-width:768px) {
-  .imagen-viajes {
-    
+  .imagen-viajes { 
       max-width: 10%!important;
-  
   }
 }
 
@@ -181,7 +171,7 @@ left: 20px;
 
 
 .card {
-  margin: 0 auto;
+  margin: 100 100;
   float: none; 
   
   
@@ -204,7 +194,6 @@ h3 {
   text-align: center;
   font-size:2.5em!important;
   vertical-align: middle;
-  padding-top: 300px;
 }
 
 h4 {
@@ -216,4 +205,16 @@ font-size: 1.5em;
 .fa-2x {
   margin: 0 0.3em;
   color: white!important;
+}
+
+.somos {
+  padding: 40px 0;
+}
+
+.destacados {
+  padding: 40px 0;
+}
+
+.typeform {
+  padding: 40px 0;
 }
