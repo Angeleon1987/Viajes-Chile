@@ -8,16 +8,7 @@ body * {
   }
 
 .imagen-viajes {
-max-width: 2.5%!important;
-
-}
-
-.imagen-viajes .texto-viajes {
-  display:block;
-}
-
-.texto-viajes p {
-  color: white;
+max-width: 3%!important;
 }
 
 #contacto {
